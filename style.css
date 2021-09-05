@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@0;1&display=swap');
+*{
+ font-family: 'Besley', serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.Main-profile{
+ height: 1.5vh;
+ background-color: #38b000;
+}
+
+.Profile{
+ text-align: center;
+ margin-top: 3rem;
+ font-size: 40px;
+ letter-spacing: 2px;
+}
+.name{
+ font-weight: bold;
+ color: rgb(53, 52, 52);
+}
+.profile-pic{
+ max-width: 30%;
+ clip-path: circle();
+}
+.work-title{
+ font-size: 20px;
+ color: grey;
+}
+.fa{
+ font-size: 5px;
+}
+.fa-twitter{
+ color: black;
+}
+.fa-linkedin{
+ color: black;
+}
+.fa-instagram{
+ color: rgb(0, 0, 0);
+}
+.fa-facebook-square{
+ color:black;
+}
+.fa-github{
+ color: black;
+}
+
+.about{
+ background-color: #38b000;
+ min-height: 30vh;
+ text-align: center;
+ color: white;
+}
+.heading-title{
+ font-size: 35px;
+ font-weight: bold;
+ margin-top: 10vh;
+ padding-top: 10vh;
+ padding-bottom: 3vh;
+}
+.paragraph{
+ margin: 0 auto;
+max-width: 60%;
+font-size:20px ;
+padding-bottom: 10vh;
+}
+
+.work{
+ background-color: #edf6f9;
+ padding-top: 5vh;
+ padding-left: 1rem;
+ padding-bottom: 4rem;
+ display: grid;
+ gap: 1rem;
+ grid-template-columns: 70% 25%;
+ color: rgb(80, 79, 79);
+}
+.work h1{
+ /* color:rgb(99, 188, 223); */
+ color: #38b000;
+}
+
+.work .project,.skill,.education,.interest{
+ background-color: white;
+ padding: 1rem;
+ margin-left: 1rem;
+ box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.project{
+ margin-bottom: 2rem;
+}
+
+.github-link{
+ font-weight: bold;
+}
+
+.education{
+ margin-left: 0rem;
+ padding-right: 3rem;
+}
+.education h1{
+ padding-bottom: 1rem;
+}
+.languages{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ padding-top: 1.5rem;
+}
+.uni{
+ color: black;
+ font-weight: bold;
+}
+.interest{
+ margin: 1rem 0rem;
+}
+/*  */
+.project img{
+ max-width: 48%;
+ padding-left: 3%;
+}
+/*  */
+@media screen and (max-width: 1100px) {
+ .work{
+  display: grid;
+  padding-left: 0.01rem;
+  grid-template-columns: 100%;
+ }
+ .project{
+  margin-right: 1rem;
+ }
+ .skill{
+  margin-right: 1rem;
+ }
+ .edu-int{
+  padding:1rem;
+ }
+ .name{
+  font-size: 30px;
+ }
+ .paragraph{
+ max-width: 80%;
+ }
+ .heading-title{
+  font-size: 35px;
+ }
+ .profile-pic{
+  max-width: 35%;
+ }
+
+}
+@media screen and (max-width: 800px) {
+ .profile-pic{
+  max-width: 50%;
+ }
+
+}
+@media screen and (max-width: 400px) {
+ .languages{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding-top: 1.5rem;
+
+ }
+ .frame-lib{
+  padding-top: 1.5rem;
+ }
+ .profile-pic{
+  max-width: 60%;
+ }
+
+}
+
+.footer{
+ height: 10vh;
+ background-color: #38b000;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.languages li{
+ padding-left: 1rem;
+}
+a{
+ text-decoration: none;
+ color: #38b000;
+
+}
+.interest img{
+ width: 40%;
+}
+
+
